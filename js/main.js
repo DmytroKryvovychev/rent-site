@@ -10,5 +10,13 @@ $(function () {
     fade: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 441,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
   });
 });
